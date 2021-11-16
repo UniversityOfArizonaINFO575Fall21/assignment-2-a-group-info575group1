@@ -2,32 +2,64 @@
 <html>
   <head>
 	<style>
+	img {
+		width: 100%;
+		height: 100%;
+		max-height: 300px;
+		}
 	.center {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 50%;
-	  }	
+		}	
 	body {
 		background-color: mediumpurple;
+	}
+	div {
+		background-color: rebeccapurple;
+	}
+	.topnav {
+	  background-color: #333;
+	  overflow: hidden;
+	}
+
+	/* Style the links inside the navigation bar */
+	.topnav a {
+	  float: left;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+
+	/* Change the color of links on hover */
+	.topnav a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+
+	/* Add a color to the active/current link */
+	.topnav a.active {
+	  background-color: #04AA6D;
+	  color: white;
 	}
 	</style>
     <title>home page</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   </head>
-  <body>
-  <img src="lavender.jpg" width="900" height="200" alt="Lavender" class="center"/>
-    <table width="900" border="1" class="center">
-  <tbody>
-    <tr>
-      <th scope="col">Home</th>
-      <th scope="col">Contact</th>
-      <th scope="col">Shop</th>
-    </tr>
-		</tbody>
-</table>
+  <body  style="background-color:plum">
+  <img src="images/lavender.jpg" width="900" height="200" alt="Lavender"/>
+    <div class="topnav">
+  <a class="topnav,center" href="index.html">Home</a>
+  <a href="shop.html">Shop</a>
+  <a href="contact.html">Contact</a>
+</div>
+	  <div>
 	<h1 class="center">Home</h1>
 	  <p class="center">Welcome to [name of farm]!</p>
 	  <p class="center">insert a bunch of images here</p>
+		  </div>
   </body>
 </html>
