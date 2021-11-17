@@ -1,0 +1,34 @@
+/* CSS style sheet for Lavender Farm project2b */
+
+/*CSS Style Reset*/
+
+body, header, nav, main, footer, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for body */
+
+body {
+	background-color: purple;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+/* Style rules for mobile viewport */
+
+/* Style rules for navigation area */
+
+nav {
+	text-align: center;
+}
+ul .separator {
+	display: inline;
+}
+nav .border {
+	border: 1px solid white;
+}
+
