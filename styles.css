@@ -40,7 +40,7 @@ nav ul li {
 img {
 	display: block;
 }
-/* What color should the link be after they've been clicked? */
+
 a:link {
 	color: white;
 }
