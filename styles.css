@@ -1,0 +1,47 @@
+/* CSS style sheet for Lavender Farm project2b */
+
+
+/*CSS Style Reset*/
+
+body, header, nav, main, footer, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for body */
+
+body {
+	background-color: #DDA0DD;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+/* Style rules for mobile viewport */
+
+/* Style rules for navigation area */
+
+nav {
+	text-align: center;
+	background-color:  #483D8B;
+	border: 3px solid white;
+}
+nav ul li {
+	display: inline;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3em;
+	float: right;
+	padding: 2%;
+}
+
+img {
+	display: block;
+}
+/* What color should the link be after they've been clicked? */
+a:link {
+	color: white;
+}
+
