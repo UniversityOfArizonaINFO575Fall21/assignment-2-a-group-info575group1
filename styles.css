@@ -25,23 +25,62 @@ img {
 
 nav {
 	text-align: center;
-	background-color:  #483D8B;
+	background-image: url("images/LavandulaFarm.png");
 	border: 3px solid white;
+	padding: 2%;
+	min-height: 200px;
+	background-size: 100% 100%;
+	width: 100%;
+	background-repeat: no-repeat;
 }
-nav ul li {
+ul li {
 	display: inline;
 	color: white;
 	font-family: 'Amatic SC', cursive;
-	font-size: 3em;
+	font-size: 2.5em;
 	float: right;
 	padding: 2%;
+	margin-right: 3px;
+	margin-bottom: 3%;
+	float: left;
 }
-
-img {
-	display: block;
+.logo {
+	border-radius: 50px;
 }
-/* What color should the link be after they've been clicked? */
+.box {
+	position: relative;
+}
+.menu {
+	bottom: 0;
+	right: 20px;
+	top: 80%;
+}
 a:link {
 	color: white;
 }
+a:visited {
+	color: white;
+}
+a:hover {
+	color:black;
+}
 
+/* style rules for shop */
+
+.grid {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 50px;
+	grid-template-rows: 600px;
+}
+
+.center {
+	padding: 10px;
+	position: absolute;
+	left: 0;
+}
+
+.products {
+	height: 300px;
+	width: 300px;
+}
