@@ -24,7 +24,7 @@ body {
 }
 
 .block {
-	background-color: mediumorchid; /* be sure to add new color HERE */
+	background-color: #8d4e85;
 	width: 80%;
 	display: inline-block;
 	margin: auto;
@@ -89,7 +89,7 @@ a:hover {
 .grid {
 	display: grid;
 	grid-template-columns: auto auto;
-	grid-column-gap: 1%;
+	grid-column-gap: 0;
 	grid-template-rows: auto;
 	width: 100%;
 	margin: 1%;
@@ -113,4 +113,11 @@ a:hover {
 .welcome {
 	text-align: center;
 	margin: 1% 10%;
+}
+
+footer {
+	font-family: 'Amatic SC', cursive;
+	color: black;
+	text-align: center;
+	font-size: 1.5em;
 }
